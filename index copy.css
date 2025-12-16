@@ -65,7 +65,6 @@ a {
 
 .signin {
   padding: 5px 20px;
-
   border-radius: 50px;
   border: none;
   border: 1px solid blue;
@@ -1538,7 +1537,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:1024px) {
 
   .menu,
   .search2,
@@ -1811,3 +1810,6 @@ body::-webkit-scrollbar {
   }
 
 }
+
+
+

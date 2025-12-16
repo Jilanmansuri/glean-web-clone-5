@@ -64,8 +64,14 @@ body {
   }
 }
 
+
+
+
+
+
+
 /* Mobile (max-width: 576px) */
-@media (max-width:576px) {
+@media (max-width:780px) {
   .hum {
     display: block;
     background-color: white;
@@ -133,11 +139,19 @@ body {
   }
 }
 
-@media(min-width:780px) {
+@media (max-width:920px) {
+  .small-cards{
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media(min-width:920px) {
   .humburger {
     display: none;
   }
 
+  .small-cards{
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
   .burger {
     display: none;
   }
@@ -680,7 +694,7 @@ body {
 .small-cards {
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ 
   gap: 15px;
 }
 
